@@ -255,7 +255,7 @@ class ChessEngine:
 
     def get_best_move(self):
         start_time = time.time()
-        time_limit = 2.4 # <-- ZMIEŃ NA 2.4 PRZED TURNIEJEM, DO SZYBKICH TESTÓW ZOSTAWCIE O.O5
+        time_limit = 2.4 
         
         legal_moves = self.generate_all_legal_moves(self.color)
         if not legal_moves:
